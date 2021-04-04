@@ -1,0 +1,5 @@
+*.csv
+output/*.csv
+**/*.DS_Store
+__pycache__
+.python-version

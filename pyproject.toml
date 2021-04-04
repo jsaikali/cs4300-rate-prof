@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rateprof"
+version = "0.1.0"
+description = ""
+authors = ["joanna.saikali@gmail.com"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.2.2"
+RateMyProfessorPyAPI = "^1.2.1"
+RateMyProfessorAPI = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
