@@ -9,6 +9,15 @@ import pandas as pd
 import datetime
 import argparse
 
+# Reached maximum output for name=Daniel. May need to refine search
+# Reached maximum output for name=Alexander. May need to refine search
+# Reached maximum output for name=Michael. May need to refine search
+# Reached maximum output for name=John. May need to refine search
+# Reached maximum output for name=Stephen. May need to refine search
+# Reached maximum output for name=Paul. May need to refine search
+# Reached maximum output for name=Thomas. May need to refine search
+# Reached maximum output for name=Cornell. May need to refine search
+
 def generate_dataset(input_csv, prof_fullname_col):
 	# Read in file containing prof names of interest
 	# and extract their last name only for querying
